@@ -5,8 +5,8 @@
   ```
  #!/bin/bash      - shebang
  echo "hello, world!"     - printing hello world
- name="vansh"   - taking vansh in variable name
- age=17     -  taking 17 in variable age 
+ name="aditya"   - taking vansh in variable name
+ age=118     -  taking 18 in variable age 
 
  echo "My name is $name ansd I am $age year old."  - printing name and age
 ```
@@ -42,4 +42,3 @@ fi
     ans = 1. add the shebang at the top
           2. give permission using the chmod command
           3. run the code.
-          

@@ -1,6 +1,6 @@
 #!/bin/bash
-# check_file.sh
-# Usage: ./check_file.sh filename.txt
+# unit7.1.sh
+# Usage: ./unit7.1.sh filename.txt
 
 if [ $# -ne 1 ]; then
 echo "Usage: $0 <filename>"
@@ -18,5 +18,5 @@ read -p "Create it now? (y/N): " ans
 case "$ans" in
 [Yy]*) touch "$file"; echo "Created $file"; echo "You can edit it using your favorite editor." ;;
 *) echo "Not creating file." ;;
-  esac
+esac
 fi

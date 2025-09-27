@@ -18,11 +18,9 @@ if [ -e "$file" ]; then
 echo "File exists: $file"
 echo "-- contents --"
 cat -- "$file"
-f the file exists, it prints confirmation and displays its contents using cat.
-
+f the file exists, it prints confirmation and displays its contents using cat.\
 File Does Not Exist Condition
 bash
-
 else
 echo "File '$file' does not exist."
 read -p "Create it now? (y/N): " ans
